@@ -1,0 +1,53 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, nav, section, article, aside, figure, figcaption, hgroup, footer, header, audio, video, canvas { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+body { line-height:1; }
+ol, ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; }
+blockquote, q { quotes:'' ''; }
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Type */
+
+a {
+    text-decoration:none;
+    color: $main_white;
+
+    &:hover {
+        color: $main_white;
+        text-decoration:none;
+    }
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// reset bootstrap container
+
+@media (min-width: 769px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+// reset padding, margin
+.container {
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+

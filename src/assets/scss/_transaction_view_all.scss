@@ -1,0 +1,26 @@
+.transaction-page {
+    .pageContent {
+        .paginate-box {
+            margin-top: 60px;
+            text-align: center;
+
+            .page {
+                padding: 5px 20px;
+                color: $main_white;
+                font-size: $f_14;
+                border-radius: 5px;
+                background-color: $main_color;
+                &:nth-child(2) {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                &:hover {
+                    color: $main_white;
+                    background-color: $search_border_focus_color;
+                    border-color: $search_border_focus_color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.recent-block-container {
+    margin-top: 30px;
+    .recent-block-box {
+        .content {
+            background-color: $main_color;
+            border: 1px solid $statistics_border_color;
+            border-radius: 5px;
+            padding: 18px 0px;
+
+            .title-box {
+                .title {
+                    font-size: $f_18;
+                    color: $main_white;
+                    position: relative;
+                    margin-left: 26px;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        width: 70px;
+                        height: 2px;
+                        background-color: $search_border_color;
+                        left: 0;
+                        top: 30px;
+                    }
+                }
+                .check {
+                    font-size: $f_12;
+                    color: $main_white;
+                    margin-right: 26px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $view_hover_color;
+                    }
+                    .icon-svg {
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            .line {
+                width: 100%;
+                height: 1px;
+                background-color: $statistics_border_color;
+                margin-top: 31px;
+                margin-bottom: 20px;
+            }
+            .today {
+                font-size: $f_14;
+                color: $main_white_opa;
+                margin-top: 18px;
+                margin-bottom: 18px;
+                padding-left: 20px;
+            }
+
+            .block-box {
+                color: $main_white_opa;
+                font-size: $f_12;
+                height: 72px;
+                width: 97%;
+                margin: 0 auto;
+                border-left: 1px solid $statistics_border_color;
+
+                .time-box {
+                    position: relative;
+
+                    .seconds {
+                        margin-bottom: 10px;
+                    }
+                    .time {
+                        opacity: 0.7;
+                    }
+
+                    &:before {
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: $search_border_color;
+                        position: absolute;
+                        left: -5px;
+                    }
+                }
+
+                .time-box-1:before, .time-box-4:before, .time-box-7:before, .time-box-10:before {
+                    background-color: $caramel_color;
+                }
+
+                .time-box-2:before, .time-box-5:before, .time-box-8:before {
+                    background-color: $green-color;
+                }
+
+                .time-box-3:before, .time-box-6:before, .time-box-9:before {
+                    background-color: $blue-color;
+                }
+
+                .details-box {
+                    padding: 13px 23px;
+                    background-color: $statistics_border_color;
+                    border-radius: 5px;
+                    border: 1px solid $main_color;
+                    &:hover {
+                        border: 1px solid $search_border_focus_color;
+                    }
+                    .box {
+                        display: inline-block;
+                        text-align: center;
+                        font-size: $f_12;
+                    }
+                    .hash-box {
+                        width: 65%;
+                        cursor: pointer;
+                    }
+                    .transaction-num-box {
+                        width: 22%;
+                    }
+                    .money-box {
+                        width: 20%;
+                        border-left: 1px solid $main_white;
+                        border-right: 1px solid $main_white;
+                    }
+                    .block-size-box {
+                        width: 13%;
+                    }
+
+                }
+            }
+        }
+    }
+}

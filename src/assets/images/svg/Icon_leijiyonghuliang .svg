@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_leijiyonghuliang </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="97.783801%" x2="50%" y2="2.08133569%" id="linearGradient-1">
+            <stop stop-color="#2BB415" offset="0%"></stop>
+            <stop stop-color="#5AD946" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="60" height="60" rx="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-835.000000, -131.000000)">
+            <g id="Stats-Widget-3" transform="translate(805.000000, 101.000000)">
+                <g id="Icon_leijiyonghuliang-" transform="translate(30.000000, 30.000000)">
+                    <g id="Base">
+                        <use fill-opacity="0.400000006" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#2BB415" stroke-width="2" x="1" y="1" width="58" height="58" rx="29"></rect>
+                    </g>
+                    <path d="M34,25 C34,22.794 32.206,21 30,21 C27.794,21 26,22.794 26,25 C26,27.206 27.794,29 30,29 C32.206,29 34,27.206 34,25 L34,25 Z M40,39 L35,39 L35,37 L37.784,37 C36.958,33.214 33.785,31 30,31 C26.215,31 23.042,33.214 22.216,37 L25,37 L25,39 L20,39 C20,34.445 22.583,31.048 26.242,29.673 C24.876,28.574 24,26.89 24,25 C24,21.686 26.686,19 30,19 C33.314,19 36,21.686 36,25 C36,26.89 35.124,28.574 33.758,29.673 C37.417,31.048 40,34.445 40,39 L40,39 Z M32.414,33.757 L33.828,35.172 L30,39 L27.172,36.172 L28.586,34.757 L30,36.172 L32.414,33.757 Z" id="Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

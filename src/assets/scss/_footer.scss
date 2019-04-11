@@ -1,0 +1,83 @@
+.footer-container {
+    height: 70px;
+    margin-top: 68px;
+    border-top: 1px solid $statistics_border_color;
+    font-size: $f_12;
+    color: $main_white;
+    padding-top: 10px;
+    width: 100%;
+
+    .box {
+        text-align: center;
+    }
+
+    .copyright {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .contact {
+        display: inline-block;
+        margin-top: 10px;
+        .wechat {
+            cursor: pointer;
+            margin-right: 30px;
+            position: relative;
+            display: inline-block;
+            height: 30px;
+            .two-dimensional {
+                position: absolute;
+                z-index: 10;
+                top: -130px;
+                left: -45px;
+                opacity: 0;
+                transition: all 0.3s ease-in;
+            }
+
+            &:hover {
+                .two-dimensional {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                left: -1px;
+                top: 0;
+                border-radius: 50%;
+                background-color: #000;
+                opacity: 0.4;
+            }
+
+            &:hover {
+                &:after {
+                    opacity: 0;
+                }
+            }
+        }
+        .github {
+            cursor: pointer;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                width: 31px;
+                height: 31px;
+                left: 0;
+                top: -19;
+                border-radius: 50%;
+                background-color: #000;
+                opacity: 0.4;
+            }
+
+            &:hover {
+                &:after {
+                    opacity: 0;
+                    display: none;
+                }
+            }
+        }
+    }
+}

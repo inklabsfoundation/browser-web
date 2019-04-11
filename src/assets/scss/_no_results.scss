@@ -1,0 +1,24 @@
+.no-results-container {
+    text-align: center;
+    .nothing-img {
+        margin-top: 200px;
+    }
+
+    .p1 {
+        font-size: $f_24;
+        color: $main_white;
+        margin-top: 40px;
+    }
+
+    .p2 {
+        font-size: $f_14;
+        color: $main_white_opa;
+        margin-top: 15px;
+    }
+
+    .footer-container {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}

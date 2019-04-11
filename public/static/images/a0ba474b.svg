@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_jiedianshu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.55905295%" x2="50%" y2="97.783801%" id="linearGradient-1">
+            <stop stop-color="#9D90E4" offset="0%"></stop>
+            <stop stop-color="#8261E6" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="60" height="60" rx="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-510.000000, -131.000000)">
+            <g id="2-copy" transform="translate(480.000000, 101.000000)">
+                <g id="Icon_jiedianshu" transform="translate(30.000000, 30.000000)">
+                    <g id="Base">
+                        <use fill-opacity="0.400000006" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#9D90E4" stroke-width="2" x="1" y="1" width="58" height="58" rx="29"></rect>
+                    </g>
+                    <path d="M34.0081791,28 L40,28 C40,23.582 35.9615127,20 31.9669654,20 L31.9669654,26 C31.9669654,27.105 32.9046854,28 34.0081791,28 M32.0109054,30 L38.0027264,30 C38.0027264,34.943 33.5148525,38.839 28.3998347,37.844 C25.2850864,37.238 22.7635285,34.724 22.1583546,31.605 C21.1647109,26.483 24.9765077,22 29.9696918,22 L29.9696918,28 C29.9696918,29.105 30.9074117,30 32.0109054,30" id="Icon-Copy" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

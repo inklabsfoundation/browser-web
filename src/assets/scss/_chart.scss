@@ -1,0 +1,10 @@
+.chart-container {
+    margin-top: 30px;
+    .chart-box {
+        .content {
+            border: 1px solid $statistics_border_color;
+            border-radius: 5px;
+            padding: 18px 30px;
+        }
+    }
+}

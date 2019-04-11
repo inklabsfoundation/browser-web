@@ -1,0 +1,157 @@
+.block-detail-page {
+    margin-top: 110px;
+
+    .block-detail-container {
+        margin-top: 30px;
+        .block-detail-box {
+            min-height: 600px;
+            .content {
+                background-color: $main_color;
+                border: 1px solid $statistics_border_color;
+                border-radius: 5px;
+                padding: 18px 0px;
+
+                .title-box {
+                    .title {
+                        font-size: $f_18;
+                        color: $main_white;
+                        margin-left: 10px;
+                        position: relative;
+                        top: -12px;
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 100px;
+                            height: 2px;
+                            background-color: $green-color;
+                            left: 0;
+                            top: 30px;
+                        }
+                    }
+                    .icon-svg {
+                        margin-left: 33px;
+                    }
+                }
+                .block-id-box {
+                    margin-top: 26px;
+                    color: $main_white;
+                    font-size: $f_14;
+                    .tx-id {
+                        padding-left: 12px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        background-color: $statistics_border_color;
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+
+                .details-container {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    padding-left: 27px;
+                    .details-box {
+                        color: $main_white_opa_3;
+                        font-size: $f_14;
+                        line-height: 2;
+                        .title {
+                            color: $main_white_opa_2;
+                        }
+                        .text-transaction-amount {
+                            color: $green-color;
+                        }
+                        .hash-id.block-hash {
+                            color: $green-color;
+                        }
+                        .hash-id.tx-hash {
+                            color: $blue-color;
+                        }
+                        .hash-id.address-hash {
+                            color: $orange-color;
+                        }
+                    }
+                }
+                .line {
+                    width: 100%;
+                    height: 2px;
+                    background-color: $green-color;
+                }
+                .table-box {
+                    width: 100%;
+                    padding-left: 0;
+                    padding-right: 0;
+                    .table-th-tr {
+                        background-color: $statistics_border_color;
+                        color: $main_white;
+                        font-size: $f_12;
+                        width: 100%;
+
+                        .table-th-td {
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            text-align: center;
+                            opacity: 0.7;
+                        }
+                    }
+                    .table-tb-tr {
+                        .table-tb-td {
+                            border-top: 1px solid $statistics_border_color;
+                            border-bottom: 1px solid $statistics_border_color;                            padding-top: 16px;
+                            padding-bottom: 12px;
+                            color: $main_white_opa;
+                            text-align: center;
+                            .icon-svg {
+                                position: relative;
+                                top: 6px;
+                                left: 3px;
+                            }
+
+                            .time {
+                                background-color: $search_border_color;
+                                padding: 5px 10px;
+                                color: $main_white;
+                                border-radius: 5px;
+                            }
+                        }
+
+                        &:hover {
+                            background-color: $statistics_border_color;
+                            .table-tb-td {
+                                border-top: 1px solid $search_border_focus_color;
+                                border-bottom: 1px solid $search_border_focus_color;
+                            }
+                        }
+                    }
+                    .no-data-td {
+                        color: $main_white;
+                        text-align: center;
+                        font-size: $f_18;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .paginate-box {
+        margin-top: 0px;
+        text-align: center;
+
+        .page {
+            padding: 5px 20px;
+            color: $main_white;
+            font-size: $f_14;
+            border-radius: 5px;
+            background-color: $main_color;
+            &:nth-child(2) {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            &:hover {
+                color: $main_white;
+                background-color: $search_border_focus_color;
+                border-color: $search_border_focus_color;
+            }
+        }
+    }
+}

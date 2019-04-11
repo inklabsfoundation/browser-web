@@ -1,0 +1,73 @@
+.transaction-detail-page {
+    margin-top: 110px;
+    .transaction-detail-container {
+        margin-top: 30px;
+        .transaction-detail-box {
+            .content {
+                background-color: $main_color;
+                border: 1px solid $statistics_border_color;
+                border-radius: 5px;
+                padding: 18px 0px;
+
+                .title-box {
+                    .title {
+                        font-size: $f_18;
+                        color: $main_white;
+                        margin-left: 10px;
+                        position: relative;
+                        top: -12px;
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 70px;
+                            height: 2px;
+                            background-color: $search_border_color;
+                            left: 0;
+                            top: 30px;
+                        }
+                    }
+                    .icon-svg {
+                        margin-left: 33px;
+                    }
+                }
+                .transaction-id-box {
+                    margin-top: 26px;
+                    color: $main_white;
+                    font-size: $f_14;
+                    .tx-id {
+                        padding-left: 12px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        background-color: $statistics_border_color;
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+
+                .details-container {
+                    margin-top: 30px;
+                    margin-bottom: 100px;
+                    padding-left: 12px;
+                    .details-box {
+                        color: $main_white_opa_3;
+                        font-size: $f_14;
+                        line-height: 2;
+                        .title {
+
+                            color: $main_white_opa_2;
+                        }
+                        .hash-id.block-hash {
+                            color: $green-color;
+                        }
+                        .hash-id.tx-hash {
+                            color: $blue-color;
+                        }
+                        .hash-id.address-hash {
+                            color: $orange-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

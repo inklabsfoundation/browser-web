@@ -1,0 +1,25 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: $main_bg;
+    overflow-x: hidden;
+    font-size: 10px;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1268px;
+    }
+}
+
+.red {
+    color: $red-color;
+}

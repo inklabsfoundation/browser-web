@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_qukuaigaodu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.22044605e-14%" x2="50%" y2="98.4853316%" id="linearGradient-1">
+            <stop stop-color="#2EA1F8" offset="0%"></stop>
+            <stop stop-color="#1990EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_悬停" transform="translate(-184.000000, -275.000000)">
+            <g id="®" transform="translate(155.000000, 246.000000)">
+                <g id="Icon_qukuaigaodu" transform="translate(30.000000, 30.000000)">
+                    <rect id="Base" stroke="#2EA1F8" stroke-width="2" fill-opacity="0.400000006" fill="url(#linearGradient-1)" x="0" y="0" width="60" height="60" rx="30"></rect>
+                    <path d="M23,40 L25,40 L25,34 L23,34 L23,40 Z M27,40 L29,40 L29,30 L27,30 L27,40 Z M35,40 L37,40 L37,22 L35,22 L35,40 Z M31,40 L33,40 L33,26 L31,26 L31,40 Z" id="Icon-Copy-3" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

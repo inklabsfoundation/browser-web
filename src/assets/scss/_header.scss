@@ -1,0 +1,29 @@
+.header-container {
+    height: $header_height;
+    background-color: $main_color;
+    width: 100%;
+
+    .logo {
+        position: relative;
+    }
+
+    .logo:after {
+        content: "";
+        width: 0.1rem;
+        height: 139%;
+        position: absolute;
+        right: -1rem;
+        top: 0;
+        background-color: $main_white;
+        opacity: 0.5;
+    }
+
+    .date-text {
+        display: inline-block;
+        font-size: $f_14;
+        padding-top: 3rem;
+        color: $main_white;
+        padding-left: 3rem;
+
+    }
+}
